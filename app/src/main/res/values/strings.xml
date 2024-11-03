@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">reconocimiento_OCR</string>
+    <string name="title_home">Inicio</string>
+    <string name="title_camera">Camara OCR</string>
+    <string name="title_galery">Galeria OCR</string>
+    <string name="text_Home">Aplicación para reconocimiento OCR en una Imagen</string>
+    <string name="text_description_home">Imagen logo de UTH</string>
+    <string name="text_description_camera">imagen de la camara</string>
+    <string name="txt_btn_camara">Abrir Camara</string>
+</resources>
