@@ -7,4 +7,5 @@
     <string name="text_description_home">Imagen logo de UTH</string>
     <string name="text_description_camera">imagen de la camara</string>
     <string name="txt_btn_camara">Abrir Camara</string>
+    <string name="by_darwin_martinez">By: Darwin Martinez</string>
 </resources>
