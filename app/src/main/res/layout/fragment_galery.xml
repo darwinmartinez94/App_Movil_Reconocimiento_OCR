@@ -4,4 +4,57 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.galery.GaleryFragment"/>
+    tools:context=".ui.galery.GaleryFragment">
+
+    <Button
+        android:id="@+id/btn_SeleccionarImagen"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/bt_seleccionar_imagen"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="VisualLintButtonSize" />
+
+    <ImageView
+        android:id="@+id/img_Seleccionada"
+        android:layout_width="378dp"
+        android:layout_height="494dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="50dp"
+        android:contentDescription="@string/description_img_galeria"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtresult"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="ImageContrastCheck"
+        tools:src="@drawable/image_no_available" />
+
+    <Button
+        android:id="@+id/btn_Procesar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:enabled="true"
+        android:text="@string/extraer_texto"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_SeleccionarImagen"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.474"
+        app:layout_constraintStart_toEndOf="@+id/btn_SeleccionarImagen"
+        app:layout_constraintTop_toTopOf="@+id/btn_SeleccionarImagen" />
+
+    <TextView
+        android:id="@+id/txtresult"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_SeleccionarImagen"
+        tools:text="Aqui va ir el texto que se extrae de la imagen" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -8,4 +8,7 @@
     <string name="text_description_camera">imagen de la camara</string>
     <string name="txt_btn_camara">Abrir Camara</string>
     <string name="by_darwin_martinez">By: Darwin Martinez</string>
+    <string name="bt_seleccionar_imagen">Seleccionar Imagen</string>
+    <string name="description_img_galeria">Imagen seleccionada de galeria</string>
+    <string name="extraer_texto">Extraer Texto</string>
 </resources>
